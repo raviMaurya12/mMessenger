@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "160243795482",
+    "firebase_url": "https://mmessenger-f1e59.firebaseio.com",
+    "project_id": "mmessenger-f1e59",
+    "storage_bucket": "mmessenger-f1e59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160243795482:android:e54559ec07a9fc18",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.mmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160243795482-5r8ej2dhkv1v5dsfo7hesjiisjdsvsng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.mmessenger",
+            "certificate_hash": "502a289d12440b92cc8a2e57997058c6dbad5dc9"
+          }
+        },
+        {
+          "client_id": "160243795482-4ri5b3m6b0rd6nghr8acjrsdpsj3qlf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXMa4r8rDXqtpr0jmuqnvn3eeefNJsptA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160243795482-4ri5b3m6b0rd6nghr8acjrsdpsj3qlf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

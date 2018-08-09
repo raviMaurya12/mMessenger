@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".statusActivity">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/status_toolbar">
+
+    </include>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="86dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="EDIT STATUS"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/status_et"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="138dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/status_save_button"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/status_et"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="195dp"
+        android:background="@color/colorAccent"
+        android:text="Save Changes"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp" />
+
+</RelativeLayout>
